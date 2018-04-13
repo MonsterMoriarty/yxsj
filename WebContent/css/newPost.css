@@ -1,0 +1,14 @@
+.newPost_input:focus {
+	border-color: #ff5063;
+}
+
+.post_textarea:focus {
+	border-color: #ff5063;
+	border-radius: 0 !important;
+}
+
+#reply_button:hover {
+	background-color: #ff5063;
+	color: white;
+	transition-duration:1s;
+}

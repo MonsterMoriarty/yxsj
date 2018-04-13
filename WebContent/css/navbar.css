@@ -1,0 +1,102 @@
+html, body, div {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-top {
+	z-index: 2;
+	background-color: black;
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.navbar {
+	z-index: 2;
+	background-color: #212128;
+	width: 100%;
+	height: 90px;
+	color: white;
+	position: fixed;
+	top: 40px;
+	left: 0;
+}
+
+.navbar-title {
+	margin: 0 0 0 200px;
+	float: left;
+	font-size: 35px;
+	line-height: 90px;
+	letter-spacing: 8px;
+	font-weight: bold;
+}
+
+.navbar-list {
+	font-size: 18px;
+	float: left;
+	line-height: 90px;
+	margin: 0 30px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.navbar-list:hover {
+	color: #ff5063;
+	transition-duration: 0.5s;
+}
+
+.dl_zc {
+	color: #ff5063;
+}
+
+.dl_zc:hover {
+	color: #ffffff;
+	transition-duration: 0.5s;
+}
+
+.form-control:focus {
+	border-color: #ff5063;
+}
+
+.my_button_1 {
+	background-color: #ffffff;
+	border: 3px solid #ff5063;
+	cursor: pointer;
+	font-weight: bold;
+	width: 150px;
+	height: 50px;
+	font-size: 22px;
+	line-height: 50px;
+	text-align: center;
+
+	border: 3px solid #ff5063;
+}
+
+.my_button_1:hover {
+	background-color: #ff5063;
+	color: white;
+	transition-duration: 1s;
+	
+}
+
+.my_button_2 {
+	background-color: #ff5063;
+	color: #FFFFFF;
+	border: 3px solid #ff5063;
+	cursor: pointer;
+	font-weight: bold;
+	width: 150px;
+	height: 50px;
+	font-size: 22px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 0 0 0;
+}
+
+.bianfen:hover {
+	color: #ff5063;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}

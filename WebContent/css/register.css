@@ -1,0 +1,21 @@
+body {
+	background-image: url(../images/background-image.jpg);
+	background-size: cover;
+}
+
+#div_register {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 700px;
+	height: 800px;
+	border-radius: 20px;
+	margin: 70px auto 40px;
+	padding: 50px 100px;
+}
+.div_register_textdiv {
+	float: left;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+	/*position: relative;
+	left: -150px;*/
+}
